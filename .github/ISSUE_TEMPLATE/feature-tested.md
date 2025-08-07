@@ -1,12 +1,11 @@
 ---
-name: Feature Tested in Request
+name: Feature tested
 about: Template to track when a feature was tested.
-title: EXPERIMENT/ROLLOUT/INITIAL TESTING - <feature name>
+title: "[QA-#] EXPERIMENT/ROLLOUT/INITIAL TESTING - <feature name>"
 labels: ''
 assignees: ''
 
 ---
 
 JIRA: [QA-#](https://mozilla-hub.atlassian.net/browse/QA-#)
-Fx Version:
 Date:
