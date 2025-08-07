@@ -118,12 +118,11 @@ if __name__ == "__main__":
         milestones = repo.get_milestones()
         formatted_milestones = {i.title: i for i in milestones}
         for action, items in ddiff.items():
+            issue_description = None
             if action == DiffEnum.ADD:
                 issue_title_prefix = "[NEW VALUE]"
-                issue_description = str(items)
             elif action == DiffEnum.REMOVE:
                 issue_title_prefix = "[REMOVED VALUE]"
-                issue_description = str(items)
             else:
                 issue_title_prefix = "[CHANGED VALUE]"
                 for item_changed, changes in items.items():
@@ -137,7 +136,7 @@ if __name__ == "__main__":
                 print(
                     repo.create_issue(
                         title=issue_title,
-                        body=issue_description,
+                        body=item if issue_description is None else issue_description,
                         milestone=formatted_milestones[issue_title_milestone],
                     )
                 )
