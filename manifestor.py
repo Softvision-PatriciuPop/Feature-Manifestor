@@ -120,11 +120,11 @@ if __name__ == "__main__":
         for action, items in ddiff.items():
             issue_description = None
             if action == DiffEnum.ADD:
-                issue_title_prefix = "[NEW VALUE]"
+                issue_title_prefix = "NEW VALUE"
             elif action == DiffEnum.REMOVE:
-                issue_title_prefix = "[REMOVED VALUE]"
+                issue_title_prefix = "REMOVED VALUE"
             else:
-                issue_title_prefix = "[CHANGED VALUE]"
+                issue_title_prefix = "CHANGED VALUE"
                 for item_changed, changes in items.items():
                     if isinstance(changes, dict):
                         issue_description = f"New Value: {str(changes['new_value'])}\n \nOld Value: {str(changes['old_value'])}"
