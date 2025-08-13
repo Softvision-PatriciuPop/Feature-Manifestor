@@ -1,8 +1,7 @@
 ---
 name: Feature tested
 about: Template to track when a feature was tested.
-title: "[QA-#] EXPERIMENT/ROLLOUT/INITIAL TESTING/FEATURE CONFIG TESTING - <feature
-  name>"
+title: "[QA-#] EXPERIMENT/ROLLOUT/FEATURE CONFIG TESTING - <feature name>"
 labels: ''
 assignees: ''
 
