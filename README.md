@@ -8,7 +8,7 @@ Any differences found will be uploaded as issues assigned to a milestone for tra
 <img width="609" height="376" alt="image" src="https://github.com/user-attachments/assets/cab4e12c-c316-41e5-ab6c-0d5b3c65f61d" />
 
 A .json with the differences will also be available as an artefact after the script finishes running.
-The archive of differences can also be found: [here]([url](https://drive.google.com/drive/folders/19h9LueDL9gUYSkxYBI6FT2ZhirD-7avK?usp=sharing))
+The archive of differences can also be found: [here](https://drive.google.com/drive/folders/19h9LueDL9gUYSkxYBI6FT2ZhirD-7avK?usp=sharing)
 
 <img width="1736" height="878" alt="Diff output" src="https://github.com/user-attachments/assets/3b95b196-70d8-40af-beaa-3b3f0bde589f" />
 
